@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.onagi.onataxi.onataxi.MainActivity">
+
+    <ImageView
+        android:id="@+id/janam"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/janam" />
+
+    <TextView
+        android:id="@+id/onaTaxi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="sans-serif"
+        android:paddingTop="8dp"
+        android:text="OnaTaxi"
+        android:textColor="@color/almostWhite"
+        android:textSize="46sp" />
+
+    <TextView
+        android:id="@+id/making"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="59dp"
+        android:fontFamily="sans-serif"
+        android:padding="8dp"
+        android:text="Making Taxi Better"
+        android:textColor="@color/almostWhite"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/sign_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/google"
+        android:layout_centerHorizontal="true"
+        android:text="Sign In Using Google Account"
+        android:textColor="@color/almostWhite" />
+
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/google"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="20dp"
+</com.google.android.gms.common.SignInButton></RelativeLayout>
