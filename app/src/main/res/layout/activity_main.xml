@@ -41,6 +41,7 @@
 
     <TextView
         android:id="@+id/sign_text"
+        android:layout_margin="8dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_above="@+id/google"
@@ -50,8 +51,9 @@
 
     <com.google.android.gms.common.SignInButton
         android:id="@+id/google"
+        android:backgroundTint="@color/colorPrimaryDark"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:layout_margin="20dp"
-</com.google.android.gms.common.SignInButton></RelativeLayout>
+        android:layout_margin="20dp"</com.google.android.gms.common.SignInButton>
+    </RelativeLayout>
